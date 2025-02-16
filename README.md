@@ -1,2 +1,2 @@
 # CryptAi
-Multi-Agent based trading tool that invests on Cryptocurrency on behalf of a user. Strategies are based on sentiment analysis of crypto websites and/or market monitoring tools with curated investment strategies
+Multi-Agent based trading tool that invests on behalf of a user. Goal is to ultimately come up with an architecture to manage a portfolio using risk analysis agents, news sentiment analysis agents, technical analysis agents and fundemental analysis agents. Variety of API's can be implemented to manage user portfolios through brokerages of their choice, we will just optimize the task of managing their portfolio.
