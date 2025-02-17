@@ -1,0 +1,3 @@
+[submodule "investment_tools/sentiment_layer/finnlp"]
+	path = investment_tools/sentiment_layer/finnlp
+	url = https://github.com/AI4Finance-Foundation/FinNLP.git
