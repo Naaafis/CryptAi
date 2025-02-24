@@ -3,7 +3,7 @@ from .base_news_fetcher import BaseNewsFetcher
 
 
 class YahooNewsFetcher(BaseNewsFetcher):
-    def __init__(self, token: str, start_date: str, end_date: str, stock_symbol: str):
+    def __init__(self, token: str, start_date: str, end_date: str):
         """
         :param token: Finnhub API token.
         :param start_date: Start date for news in YYYY-MM-DD format.
@@ -12,7 +12,6 @@ class YahooNewsFetcher(BaseNewsFetcher):
         """
         self.start_date = start_date
         self.end_date = end_date
-        self.stock_symbol = stock_symbol
         self.downloader = Yahoo_Date_Range(args={"token": token})
 
     def fetch(self, stock_symbol: str) -> list[dict]:
