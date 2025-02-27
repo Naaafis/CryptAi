@@ -1,0 +1,6 @@
+.env
+investment_tools/.env
+investment_tools/tools/*
+investment_tools/utils/finnlp/*
+*.pyc
+*.DS_Store
